@@ -1,0 +1,85 @@
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container2{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .about, .useful-links, .contact, .join {
+    width: 25%;
+    padding: 0 20px;
+  }
+  
+  .about h3, .useful-links h3, .contact h3, .join h3 ,.page-editor h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .useful-links ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .join p {
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .page-editor a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 23px;
+    width: 90px;
+    height: 30px;
+    padding: 10px 10px;
+  }

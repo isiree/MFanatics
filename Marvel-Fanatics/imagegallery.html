@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" href="Logo.png" >
+
+    <!-- Linking the navigation bar stylesheet -->
+    <link rel="stylesheet" type="text/css" href="header.css" >
+
+    <!-- Linking the home page stylesheet -->
+    <link rel="stylesheet" type="text/css" href="home.css" >
+
+    <!--Linking with footer stylesheet-->
+    <link rel="stylesheet" href="footer.css" >
+</head>
+<body>
+    <nav id="top">
+        <a href="home.html">
+          <img class="logo" src="Logo.png" alt="Marvel logo" >
+        </a>
+        <!--menu items-->
+        <ul>
+          <li><a href="home.html" >HOME</a></li>
+          <li><a href="store.html">SHOP</a></li>
+          <li><a href="QuizAndAboutUs/Quiz/Quiz.html">QUIZ</a></li>
+          <li><a href="imagegallery.html" class="selected">GALLERY</a></li>
+          <li><a href="sitemap.html">SITE MAP</a></li>
+          <li><a href="menu-contents.html">CONTENTS</a></li>
+          <li><a href="query_form/queryForm.html">FEEDBACK FORM</a></li>
+          <li><a href="QuizAndAboutUs/Aboutus/Aboutus.html">ABOUT US</a></li>
+        </ul>
+      </nav>
+    <div class="gallery">
+        <div class="hero-container">
+            <h1 class="header">MARVEL SUPERHEROES</h1>
+        </div>
+        <div class="button">
+            <div class="frame">
+                <span id="1" class="color c1" onclick="color(this)"></span>
+                <span id="2" class="color c2" onclick="color(this)"></span>
+                <span  class="color c3" onclick="color(this)"></span>
+                <span  class="color c4" onclick="random_bg_color()">RA</span>
+            </div>
+            <div class="bb">
+            <span class="btn active" onclick="setFontSize('0.8em')">A</span>
+            <span class="btn" onclick="setFontSize('1.25em')" >A</span>
+            <span class="btn" onclick="setFontSize('1.75em')">A</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="box">
+                <img src="cap.jpg" alt="image of Captain Amarica">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Captain America</h2>
+                        <P>Captain America is a superhero in the Marvel Comics universe, created by Joe Simon 
+                            and Jack Kirby in 1941. His real name is Steve Rogers, a frail man who was transformed 
+                            into a super-soldier during World War II. With his iconic shield and unwavering sense of 
+                            justice, Captain America fights for truth, freedom, and the American way.</P>
+                    </div>
+                </div>
+            </div>
+            <script src="gallery.js"></script>
+            <div class="box">
+                <img src="renner.jpg.webp" alt="image of Hawkeye">
+                <div class="img-text" >
+                    <div class="img-content">
+                        <h2>Hawkeye</h2>
+                        <P>Hawkeye is a skilled marksman and member of the Avengers in the Marvel Comics universe.
+                             His real name is Clint Barton, and he was trained by the Swordsman and Trickshot as a
+                              child. Hawkeye is often depicted as a rogue with a heart of gold, using his bow and 
+                              arrows to fight for justice.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="iron.jpg" alt="image of Iron Man">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Iron Man</h2>
+                        <P>Iron Man is a Marvel superhero created by writer Stan Lee and designed by 
+                            artist Don Heck and first appeared in 1963. The character, whose real name is 
+                            Tony Stark, is a wealthy industrialist who invents a suit of powered armor to become 
+                            a technologically advanced superhero. He is known for his wit, intelligence, and
+                             technological prowess.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="bp.jpg" alt="image of Black Panther">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Black Panther</h2>
+                        <P>Black Panther is a superhero in the Marvel Comics universe, created by writer Stan Lee
+                             and artist Jack Kirby in 1966. His real name is T'Challa, king and protector of the 
+                             fictional African nation of Wakanda. He possesses superhuman strength, agility, and 
+                             senses, as well as advanced technology and fighting skills, and is known for his iconic
+                              vibranium suit.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="bw.jpg" alt="image of Black Widow">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Black Widow</h2>
+                        <P>Black Widow, also known as Natasha Romanoff, is a highly trained spy and former assassin 
+                            in the Marvel Cinematic Universe. She is a skilled hand-to-hand combatant, 
+                            expert marksman, and has extensive training in various forms of espionage. She is a core
+                             member of the Avengers and a valued ally in the fight against evil.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="hulk.jpg" alt="image of Hulk">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Hulk</h2>
+                        <P>Hulk is a Marvel Comics character known for his incredible strength and his alter ego,
+                             Dr. Bruce Banner. When Banner is angered or stressed, he transforms into the Hulk,
+                              a massive green humanoid with seemingly limitless power. Despite his strength, Hulk
+                              is often portrayed as a tragic figure struggling to control his rage.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="thor.jpg" alt="image of Thor">
+                <div class="img-text">
+                    <div class="img-content">
+                        <h2>Thor</h2>
+                        <P>Thor, based on Norse mythology, is a Marvel superhero known for his godly powers and the 
+                            mystical hammer Mjolnir. He is the prince of Asgard and a founding member of the Avengers.
+                             Thor possesses immense strength, durability, and lightning powers, making him a 
+                             formidable force against his enemies, both on Earth and in the cosmos.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <footer>
+            <div class="container2">
+              <div class="about">
+                <h3>About Marvel</h3>
+                <p>Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent character-based entertainment companies, built on a proven library of more than 8,000 characters featured in a variety of media over 80 years.</p>
+              </div>
+              <div class="useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li><a href="#">Marvel Comics</a></li>
+                  <li><a href="#">Marvel Studios</a></li>
+                  <li><a href="#">Marvel Shop</a></li>
+                </ul>
+              </div>
+              <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Phone: +9473251905<br>Email: marvel@gmail.com</p>
+              </div>
+              <div class="join">
+                <h3>Join the Marvel Universe</h3>
+                <p>Sign up for our newsletter to get the latest news, updates, and special offers from Marvel.</p>
+                <ul class="social-links">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+             <div class="page-editor">
+                <h3>Page by Student 4</h3>
+                <a href="pageEditor.html">Page Editor</a>
+             </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2023 Marvel. All rights reserved.</p>
+            </div>
+          </footer>  
+</body>
+</html>
